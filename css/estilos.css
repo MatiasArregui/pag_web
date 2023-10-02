@@ -1,0 +1,136 @@
+/*-------------------------------------- Estilo body  -------------------------------------------*/
+body{
+    /* background-color: #5b1f00; */
+    background-color: #ffa07a;
+/*-----------------------------Estilos del header --------------------------*/
+}
+.header_estilo{
+    /* background-color: #b96e48; */
+    /* height: 100px; */
+    /* background-color: #e9967a; */
+    /* background-color: #d8876c; */
+    background-color: #b76a50;
+}
+.nav_estilo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.div_nav{
+    /* background-color: #8d4925; */
+    /* background-color: #d8876c; */
+    background-color: #e6966e;
+    margin: 2px;
+    height: 60px;
+}
+.div_nav a{
+    color: black;
+}
+header svg{
+    color: black;
+}
+
+/*------------------------------- Estilos del Main ----------------------------*/
+/*------------------- Tecnologias estilo ------------------*/
+.tecnologias_estilo{
+    background-color: #e6966e;
+}
+/*------------------- Sobre mi estilo ------------------*/
+.sobremi_estilo{
+    background-color:  #e6966e;
+}
+/* Estilos sobre el div que maneja la imagen */
+.div_img{
+    padding: auto;
+    background-color: #5b1f00;
+}
+/* Establecer el tamaño de la imagen, para establecer dos imagenes utilizaremos el hidden para utilizar dos imagenes */
+.img_sobre_mi{
+    width: 210px;
+    height: 210px;
+    margin: auto;
+}
+.img_sobre_mi_2{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+/*------------------- Proyectos estilo ------------------*/
+.proyectos_estilo{
+    background-color: #e6966e;
+}
+.box_img{
+    background-color: black;
+    margin: 2px;
+    height: 100px;
+}
+.box_img_samai{
+    background-color: #9faf5c;
+    margin: 2px;
+    height: 100px;
+}
+.box_img_arroyo{
+    background-color: white;
+    margin: 2px;
+    height: 100px;
+}
+/*------------------- Contacto estilo ------------------*/
+.contacto_estilo{
+    background-color: #e6966e;
+}
+.contacto_estilo .titulo{
+    color: black;
+    margin-bottom: 20px;
+}
+.contacto_estilo .formulario input[type="text"]
+.contacto_estilo .formulario input[type="email"]
+.contacto_estilo .formulario textarea {
+    padding: 15px;
+    border: none;
+    font-family: 'open sans',sans-serif;
+}
+.contacto_estilo .formulario textarea {
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+.contacto_estilo .formulario .boton {
+    background-color: #d8876c;
+    border: none;
+    padding: 7px 30px;
+    color: black;
+    font-family: 'open sans', sans-serif;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+}
+.contacto_estilo .formulario .boton:hover {
+    background-color: #b76a50;
+}
+/*------------------------------------------- Footer estilo ----------------------------------------*/
+.redes_sociales_estilo{
+    /* background-color: #e6966e; */
+    /* background-color: #b96e48; */
+    background-color: #b76a50;
+}
+.redes_sociales_estilo .icono{
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background-color: #cbcbcb;
+    text-decoration: none;
+    border-radius: 80px;
+}
+.redes_sociales_estilo .icono svg {
+    width: 40px;
+    height: 40px;
+}
+.redes_sociales_estilo .twitter {
+    background-color: #1da1f2;
+}
+.redes_sociales_estilo .instagram {
+    background-color: #8332b4;
+}
+.redes_sociales_estilo .facebook {
+    background-color: #3b5998;
+}
